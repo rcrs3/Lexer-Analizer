@@ -1,6 +1,0 @@
-/*testando
-*para
-*ver
-*se
-*funciona*/
-x + X

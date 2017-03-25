@@ -27,7 +27,7 @@ System.out.println("Quantidade de Identificadores encontrados: "+qtdeID);
 //patterns
 letter = [A-Za-z]
 digit = [0-9]
-integer = ({digit})*
+integer = [0] | ([1-9]({digit})*)
 alphanumeric = {letter} | {digit} | _
 identifier = (_ | {letter})({alphanumeric})*
 lineterminator = [\r\n]
